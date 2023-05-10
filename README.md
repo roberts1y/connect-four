@@ -12,7 +12,7 @@ To run this Ruby program in VSCode, you'll need to follow these steps:
 
 4. Once you have Ruby installed, you can run your program from the terminal. To do this, open a new terminal window in VSCode by selecting "Terminal" > "New Terminal" from the top menu bar.
 
-5. In the terminal you opened inside of you connect-four forked repository, run the program using the `ruby` command followed by the name of your file.
+5. In the terminal you opened inside of you connect-four forked repository, run the program using the `ruby` command followed by the name of the file. In this case, it you would run the following command:
 
 ```
 ruby four.rb
