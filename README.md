@@ -4,7 +4,7 @@ Basic ruby connect four game for playing with friends.
 # How to play (Using VSCode)
 To run this Ruby program in VSCode, you'll need to follow these steps:
 
-1. Open your Ruby file in VSCode. You can create a new file by selecting "File" > "New File" and then saving it with a `.rb` extension.
+1. Open the `connect-four` repository in VSCode. You can do this by opening VSCode, selecting "File" > "Open Folder" from the top menu bar, and then selecting the `connect-four` folder from your computer.
 
 2. Install the Ruby extension for VSCode if you haven't already. You can do this by opening the Extensions panel on the left-hand side of the editor, searching for "Ruby", and then installing the extension.
 
