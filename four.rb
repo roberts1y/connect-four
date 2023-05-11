@@ -11,6 +11,8 @@ class ConnectFourGame
       puts "Player #{@current_player}, select a column to drop your piece (1-7):"
       column = gets.chomp.to_i - 1
 
+      puts "\e[H\e[2J" # Clear the terminal window
+
       if valid_move?(column)
         drop_piece(column)
         if winner?
