@@ -1,7 +1,7 @@
 class ConnectFourGame
   def initialize
     @board = Array.new(6) { Array.new(7, " ") }
-    @current_player = "X"
+    @current_player = "R"
   end
 
   def play
@@ -79,19 +79,18 @@ class ConnectFourGame
   end
 
   def switch_players
-    @current_player = @current_player == "X" ? "O" : "X"
+    @current_player = @current_player == "R" ? "Y" : "R"
   end
 
   def display_board
     puts "\n 1 2 3 4 5 6 7"
-    puts "---------------"
     @board.each do |row|
       row.each do |piece|
         print "|#{piece}"
       end
       puts "|"
-      puts "---------------"
     end
+    puts "---------------"
     puts ""
   end
 end
